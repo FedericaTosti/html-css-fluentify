@@ -1,0 +1,483 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* nav sinistro */
+nav::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.nav-sinistro img{
+  float: left;
+  display: inline-block;
+  padding: 35px 50px 0 100px;
+}
+
+nav{
+  background-color: #0D325A;
+  width: 1366px;
+}
+
+.nav-sinistro ul li{
+  float: left;
+  text-align: center;
+  display: inline-block;
+  font-size: 13px;
+  margin-top: 35px;
+  padding: 6px;
+  cursor: pointer;
+  color: white;
+}
+nav li:hover{
+ color: orange;
+}
+
+/* nav destro */
+
+.nav-destro ul li{
+text-align: center;
+display: inline-block;
+font-size: 13px;
+cursor: pointer;
+color: white;
+padding-top: 30px;
+padding-left: 10px;
+}
+.nav-destro ul{
+  margin-right: 100px;
+  float: right;
+}
+
+nav button{
+  float: right;
+  width: auto;
+  height: auto;
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+.login{
+  background-color: #0D325A;
+}
+
+/* header */
+header::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.intestazione{
+  position: relative;
+  height: 420px;
+  width: auto;
+}
+
+.titolo1 {
+  position: absolute;
+  font-size: 50px;
+  color: white;
+  transform: translate( -20%, -20%);
+  top: 30%;
+  left: 20%;
+}
+
+button{
+  float: left;
+  width: 20%;
+  height: 30px;
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  margin-top: 50px;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+section:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* main */
+
+/* prima section */
+.info-corso::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.info-corso {
+  border-bottom: 1px solid grey;
+}
+
+.grigio{
+  width: auto;
+  background-color: #f9f9f9;
+  padding: 45px 20px 45px;
+}
+
+.titolo2{
+  text-align: center;
+  font-size: 25px;
+}
+.titolo2 h5{
+  opacity: 0.5;
+}
+
+.tre-proposte{
+  padding: 20px;
+}
+
+#info .proposta{
+  text-align: center;
+  width: 33.3333%;
+  float: left;
+  padding: 15px 20px;
+}
+
+#info .proposta h4{
+  color: #7fb802;
+  font-size: 22px;
+}
+
+.tre-proposte p{
+  opacity: 0.5;
+}
+/* seconda section */
+
+.img-livello{
+  width: 50%;
+  float: left;
+  padding-left: 30px;
+}
+
+.livello{
+  width: 50%;
+  float:right;
+  display: inline;
+  margin-top: 40px;
+}
+
+.titolo3 h2{
+  padding-top: 50px;
+  font-size: 40px;
+}
+
+.titolo3 p{
+  font-size: 18px;
+  padding: 20px 0;
+  opacity: 0.5;
+}
+
+/* section grigia */
+.grigia{
+  height: 90px;
+  width: auto;
+  background-color: #f9f9f9;
+}
+
+.testo h3{
+  float: left;
+  text-align: center;
+  display: inline-block;
+  margin-top: 35px;
+  font-size: 30px;
+}
+
+.scelta{
+  text-align: center;
+  float: right;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.scelta h3{
+  float:left;
+  padding-right: 200px;
+}
+
+.scelta button{
+  float: right;
+  width: auto;
+  height: auto;
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  margin-top: 3px;
+}
+
+/* terza section, blu */
+.sezione-blu{
+  background-color: #0D325A
+}
+.tipo-lezioni{
+  width: 50%;
+  float:left;
+  display: inline;
+}
+
+.titolo4 h2{
+   color: white;
+   font-size: 35px;
+   padding-top: 50px;
+}
+
+.titolo4 span{
+   color: orange;
+}
+
+.titolo4 p{
+  color: #FFFFFF;
+  padding: 30px 0;
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+.titolo4 a{
+  color: #98c8f8;
+  padding: 15px 0;
+}
+
+
+.img-lez{
+  width: 50%;
+  float: right;
+  padding-right: 0px;
+}
+
+/* quarta section */
+.necessario{
+  border-bottom: 1px solid grey;
+}
+
+.img-mani{
+  width: 50%;
+  float: left;
+  padding-left: 30px;
+}
+
+.inglese-necessario{
+  width: 50%;
+  float:right;
+  display: inline;
+  margin-top: 40px;
+}
+
+.titolo5 h2{
+  padding-top: 50px;
+  font-size: 40px;
+}
+
+.titolo5 p{
+  font-size: 18px;
+  padding: 20px 0;
+  opacity: 0.5;
+}
+
+.titolo5 h6{
+  color: #98c8f8;
+  font-size: 13px;
+  padding: 60px 0px;
+  margin-left: 180px;
+}
+
+/* quinta section */
+.videoconferenza{
+  border-bottom: 1px solid grey;
+}
+
+.videoconferenza div{
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.titolo6 h2{
+  font-size: 40px;
+  padding: 10px;
+}
+
+.titolo6 span{
+  color: green;
+}
+
+.titolo6 h6{
+  font-size: 15px;
+  padding: 10px;
+  opacity: 0.5;
+}
+
+.titolo6 p{
+  font-size: 25px;
+  padding: 10px;
+  opacity: 0.5;
+}
+
+.titolo6 a{
+  color: #98c8f8;
+  padding: 10px;
+}
+
+/* sesta section blu */
+
+.azienda {
+  position: relative;
+  height: 420px;
+  width: auto;
+}
+
+.titolo7 {
+  position: absolute;
+  font-size: 30px;
+  color: white;
+  transform: translate( -20%, -20%);
+  top: 30%;
+  left: 20%;
+}
+
+.titolo7 p {
+  font-size: 15px;
+  padding-top: 30px;
+  opacity: 0.5;
+}
+
+/* settima section */
+.proposte img{
+  height: 25px;
+  margin-bottom: 20px;
+}
+
+.piano .proposte{
+  float:left;
+  width: 33.333%;
+  padding: 0 100px;
+}
+.piano{
+  padding-bottom: 30px;
+}
+.testata{
+  text-align: center;
+  font-size: 20px;
+  margin: 80px 0;
+}
+
+.proposte h4{
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.proposte p{
+  margin-bottom: 15px;
+  opacity: 0.5;
+}
+
+.proposte a{
+  margin-top: 20px;
+}
+
+/* footer */
+footer{
+  width: auto;
+}
+.sez-faqs::after, .sez-link{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* faqs */
+.sez-faqs{
+  background-color: #0D325A;
+  color: white;
+  padding: 50px;
+}
+
+.faqs h3{
+  font-size: 30px;
+  padding-left: 50px;
+}
+
+.faqs h5{
+  font-size: 18px;
+  padding-left: 50px;
+  opacity: 0.5;
+}
+
+.faqs a{
+  color: #f8b71c;
+  text-decoration: none;
+}
+
+.faqs a:hover{
+  text-decoration: underline;
+}
+
+/* link */
+.sez-link{
+  background-color: #17406b;
+  width: 1350px;
+}
+
+.azienda{
+  float: left;
+  padding-left: 20px;
+}
+
+.info{
+  float: right;
+  padding-right: 20px;
+}
+
+.azienda h6{
+  font-size: 20px;
+  color: white;
+  padding: 60px 150px 15px;
+}
+
+.azienda ul{
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+  padding: 15px 150px;
+}
+
+.azienda ul li{
+  padding: 15px 0;
+}
+
+.azienda ul li a{
+  color: white;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+.azienda a:hover{
+  text-decoration: underline;
+}
+
+.info{
+  padding: 70px 230px;
+}
+
+.info span{
+  display: block;
+  font-size: 23px;
+  color: white;
+  text-align: right;
+}
+
+.info p{
+  color: white;
+  padding-top: 55px;
+  text-align: right;
+  opacity: 0.5;
+}
